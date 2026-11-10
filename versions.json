@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "updated": "2026-11-10",
+  "groups": [
+    {
+      "id": "0.0",
+      "name": "0.0",
+      "note": "内测线",
+      "versions": [
+        {
+          "id": "0.0.1",
+          "file": "VertiWorld v0.0.1.zip",
+          "size": 3071874,
+          "md5": "fd7003387446ce6a5e4e5a8742a81ada",
+          "date": "2026-11-10",
+          "notes": "修 world-gen 每区块重建（崩溃主因）、存档池不丢块、重建计数防复发"
+        },
+        {
+          "id": "0.0.0",
+          "file": "VertiWorld.zip",
+          "size": 3061044,
+          "md5": "693220ce211b7836f067d1f47c6e297c",
+          "date": "2026-11-08",
+          "notes": "首个可玩版本"
+        }
+      ]
+    }
+  ]
+}
