@@ -1,29 +1,29 @@
 {
-  "schema": 1,
-  "updated": "2026-11-10",
-  "groups": [
+ "schema": 1,
+ "updated": "2026-11-13",
+ "groups": [
+  {
+   "id": "0.0",
+   "name": "0.0",
+   "note": "内测线",
+   "versions": [
     {
-      "id": "0.0",
-      "name": "0.0",
-      "note": "内测线",
-      "versions": [
-        {
-          "id": "0.0.1",
-          "file": "VertiWorld v0.0.1.zip",
-          "size": 3071874,
-          "md5": "fd7003387446ce6a5e4e5a8742a81ada",
-          "date": "2026-11-10",
-          "notes": "修 world-gen 每区块重建（崩溃主因）、存档池不丢块、重建计数防复发"
-        },
-        {
-          "id": "0.0.0",
-          "file": "VertiWorld.zip",
-          "size": 3061044,
-          "md5": "693220ce211b7836f067d1f47c6e297c",
-          "date": "2026-11-08",
-          "notes": "首个可玩版本"
-        }
-      ]
+     "id": "0.0.1",
+     "file": "VertiWorld v0.0.1.zip",
+     "size": 2960177,
+     "md5": "e87b0b1af666e5b8085b50603a269d5f",
+     "date": "2026-11-10",
+     "notes": "修 world-gen 每区块重建(崩溃主因)、存档池不丢块、诊断可在加载阶段上报 —— 【2026-11-13 重新打包】移除开发脚本与测试世界 yyy/，文档保留在包内。许可：源码公开 + 禁止商用（PolyForm Noncommercial 1.0.0 官方原文），附 LICENSE 与「第三方组件声明.md」（含 three.js 的 MIT 全文、GeneralUser GS License v2.0 原文摘录、以及两则附注）；游戏内「关于」面板有版权行与构建指纹 VW-FP-20261113-a7c4e91b。★ 包内已无 GPL 代码：上游 WebAudioFontPlayer.js（GPL-3.0）已移除，替换为自研 src/audio/gm-player.js。"
+    },
+    {
+     "id": "0.0.0",
+     "file": "VertiWorld.zip",
+     "size": 2956913,
+     "md5": "5d22547e202e006b26e2b2084d54ee6a",
+     "date": "2026-11-08",
+     "notes": "首个可玩版本 —— 【2026-11-13 重新打包】移除开发残留（inject-err.js、start.sh、stop.sh）与示例 coremod，文档保留在包内。许可：源码公开 + 禁止商用（PolyForm Noncommercial 1.0.0 官方原文），附 LICENSE 与「第三方组件声明.md」（含 three.js 的 MIT 全文、GeneralUser GS License v2.0 原文摘录、以及两则附注）；游戏内「关于」面板有版权行与构建指纹 VW-FP-20261113-a7c4e91b。★ 包内已无 GPL 代码：上游 WebAudioFontPlayer.js（GPL-3.0）已移除，替换为自研 src/audio/gm-player.js。"
     }
-  ]
+   ]
+  }
+ ]
 }
